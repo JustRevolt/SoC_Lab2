@@ -1,0 +1,7 @@
+Running: xsim.dir/multiply_matrices/xsimk.exe -simmode gui -wdb multiply_matrices.wdb -simrunnum 0 -socket 64393
+Design successfully loaded
+Design Loading Memory Usage: 6412 KB (Peak: 6412 KB)
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation Memory Usage: 10232 KB (Peak: 10232 KB)
+Simulation CPU Usage: 437 ms

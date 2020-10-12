@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="lab2.c" path="E:\University\4course\SystemofChip\Labs\2\lab2\lab2.c"/>
+    <originFiles name="lab2.h" path="E:\University\4course\SystemofChip\Labs\2\lab2\lab2.h"/>
+  </source>
+  <testbench>
+    <originFiles name="in.dat" path="E:\University\4course\SystemofChip\Labs\2\lab2\in.dat"/>
+    <originFiles name="lab2_test.c" path="E:\University\4course\SystemofChip\Labs\2\lab2\lab2_test.c"/>
+    <originFiles name="out.gold.dat" path="E:\University\4course\SystemofChip\Labs\2\lab2\out.gold.dat"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

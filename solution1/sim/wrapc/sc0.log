@@ -1,0 +1,27 @@
+   Build using "C:/Xilinx/Vivado/2019.1/msys64/mingw64/bin/g++"
+   Compiling apatb_multiply_matrices.cpp
+   Compiling (apcc) lab2.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'serhg' on host 'desktop-7nftmla' (Windows NT_amd64 version 6.2) on Mon Oct 12 01:46:15 +0300 2020
+INFO: [HLS 200-10] In directory 'E:/University/4course/SystemofChip/Labs/2/lab2/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling (apcc) lab2_test.c_pre.c.tb.c
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'serhg' on host 'desktop-7nftmla' (Windows NT_amd64 version 6.2) on Mon Oct 12 01:46:27 +0300 2020
+INFO: [HLS 200-10] In directory 'E:/University/4course/SystemofChip/Labs/2/lab2/solution1/sim/wrapc'
+clang: warning: argument unused during compilation: '-fno-builtin-isinf'
+clang: warning: argument unused during compilation: '-fno-builtin-isnan'
+In file included from E:/University/4course/SystemofChip/Labs/2/lab2/lab2_test.c:1:
+E:/University/4course/SystemofChip/Labs/2/lab2/lab2_test.c:47:28: warning: incompatible pointer types passing 'data_t (*)[100]' to parameter of type 'short *' [-Wincompatible-pointer-types]
+multiply_matrices(n, a, b, &c);
+                           ^~
+./apatb_multiply_matrices.h:10:7: note: passing argument to parameter 'c' here
+short c[100]);
+      ^
+1 warning generated.
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating cosim.tv.exe
