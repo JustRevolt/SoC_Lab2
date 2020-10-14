@@ -1,6 +1,6 @@
 #ifndef LAB2_H_
 #define LAB2_H_
-#define N	100 //var count in max matrix
+#define N	100 //number of variable in max size matrix
 
 typedef short int data_t;
 typedef unsigned short int iter_t;

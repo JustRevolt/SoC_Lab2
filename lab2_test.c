@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include "lab2.h"
 
 void get_matrix(FILE * input, data_t n, data_t * a) {
@@ -29,7 +28,7 @@ int main () {
 	FILE *fs, *fp;
 	
 	int test_count, k;
-	data_t n, a[100], b[100], c[100];
+	data_t n, a[N], b[N], c[N];
 	
 	test_count = 0; //количество тестов
 	
